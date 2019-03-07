@@ -1,0 +1,27 @@
+{
+  "name": "8100",
+  "version": "1.0.0",
+  "description": "use `http-server` to create a server playground.",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -p 8100",
+    "prestart": "npm list http-server && echo 'the latest version:' && npm view http-server version",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/server-playground/8100.git"
+  },
+  "author": {
+    "name": "lixinliang",
+    "url": "https://github.com/lixinliang"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/server-playground/8100/issues"
+  },
+  "homepage": "https://github.com/server-playground/8100#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
